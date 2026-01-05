@@ -51,17 +51,12 @@ const Hero: React.FC = () => {
 
           {/* Central Visual (Center) */}
           <div className="md:col-span-4 order-1 md:order-2 flex justify-center relative my-8 md:my-0">
-             {/* Name typography behind avatar */}
-             <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[18vw] md:text-[10rem] font-display font-bold text-white/5 tracking-tighter select-none pointer-events-none whitespace-nowrap z-0">
-               FATMA
-             </h1>
-
              {/* 3D Avatar */}
              <div className="relative z-10 w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 group">
                 <div className="absolute inset-4 bg-gradient-to-tr from-primary to-transparent rounded-full blur-2xl opacity-40 group-hover:opacity-60 transition-opacity duration-500"></div>
                 <div className="relative w-full h-full rounded-[3rem] overflow-hidden border border-white/5 bg-gradient-to-b from-white/5 to-transparent backdrop-blur-sm shadow-2xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1634926878768-2a5b3c426d49?q=80&w=800&auto=format&fit=crop" 
+                    src="/images/fatma-image.jpg" 
                     alt="Fatma Avatar" 
                     className="w-full h-full object-cover transform transition-transform duration-700 hover:scale-110"
                   />
@@ -77,6 +72,11 @@ const Hero: React.FC = () => {
                   </div>
                 </div>
              </div>
+
+             {/* Name typography in front (Faded & Integrated) */}
+             <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[18vw] md:text-[11rem] font-display font-bold text-white/10 tracking-tighter select-none pointer-events-none whitespace-nowrap z-20 mix-blend-overlay">
+               FATMA
+             </h1>
           </div>
 
           {/* Stats/Quick Info (Right on Desktop, Bottom on Mobile) */}

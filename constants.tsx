@@ -84,14 +84,16 @@ export const PROJECTS: Project[] = [
     title: 'Personal Finance App',
     category: 'FinTech / C#',
     image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=1000',
+    description: "A comprehensive tool for tracking expenses and managing budgets with real-time visualization.",
     span: 'large',
     link: '#'
   },
   {
     id: '2',
-    title: 'Sucafica Corporate Site',
+    title: 'Zamani',
     category: 'Web / Responsive',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800',
+    image: '/images/zamani_01.jpeg',
+    description: "A corporate web platform built for Zamani, featuring modern design and seamless navigation.",
     span: 'tall',
     link: '#'
   },
@@ -100,14 +102,16 @@ export const PROJECTS: Project[] = [
     title: 'Tourism Analytics',
     category: 'Data / Report',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800',
+    description: "Data-driven insights into tourism trends using advanced analytics and reporting tools.",
     span: 'small',
     link: '#'
   },
   {
     id: '4',
-    title: 'Student Portal Logic',
-    category: 'Backend / SQL',
-    image: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?auto=format&fit=crop&q=80&w=800',
+    title: 'Fanta Campaign',
+    category: 'Brand / Interactive',
+    image: '/images/fanta_01.jpeg',
+    description: "A creative campaign project showcasing brand identity and interactive user engagement.",
     span: 'medium',
     link: '#'
   }
@@ -118,6 +122,8 @@ export const SOCIALS: SocialLink[] = [
   { platform: 'GitHub', url: 'https://github.com/Fafa-ally', icon: Github },
   { platform: 'Email', url: 'mailto:allyfatma167@gmail.com', icon: Mail },
 ];
+
+export const RESUME_URL = "/Fatma_Ali_Ahmed_Resume.pdf";
 
 export const SYSTEM_INSTRUCTION = `
 You are an AI assistant for Fatma Ali Ahmed's portfolio.

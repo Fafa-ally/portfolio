@@ -20,6 +20,7 @@ export interface Project {
   title: string;
   category: string;
   image: string;
+  description: string;
   span: 'small' | 'medium' | 'large' | 'tall';
   link: string;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-import { SOCIALS } from '../constants';
-import { Mail, ArrowUp } from 'lucide-react';
+import { SOCIALS, RESUME_URL } from '../constants';
+import { Mail, ArrowUp, Download } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -18,13 +18,21 @@ const Footer: React.FC = () => {
           <span className="text-neutral-500">Let's solve complex problems.</span>
         </h2>
 
-        <div className="flex flex-col items-center gap-8 mb-16">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
           <a 
             href="mailto:allyfatma167@gmail.com" 
-            className="inline-flex items-center gap-3 px-8 py-4 bg-white text-black rounded-full font-bold text-lg hover:scale-105 hover:bg-blue-300 transition-all duration-300"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-white text-black rounded-full font-bold text-lg hover:scale-105 hover:bg-blue-300 transition-all duration-300"
           >
             <Mail size={20} />
             Send me an Email
+          </a>
+          <a 
+            href={RESUME_URL}
+            download
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-neutral-900 text-white border border-white/10 rounded-full font-bold text-lg hover:scale-105 hover:bg-neutral-800 transition-all duration-300"
+          >
+            <Download size={20} />
+            Download Resume
           </a>
         </div>
 
