@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
                 <div className="relative w-full h-full rounded-[3rem] overflow-hidden border border-white/5 bg-gradient-to-b from-white/5 to-transparent backdrop-blur-sm shadow-2xl">
                   <img 
                     src="/images/fatma-image.jpg" 
-                    alt="Fatma Avatar" 
+                    alt="Fatma Ali Ahmed - Software Engineer Profile Picture" 
                     className="w-full h-full object-cover transform transition-transform duration-700 hover:scale-110"
                   />
                   {/* Overlay Gradient */}

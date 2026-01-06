@@ -46,6 +46,7 @@ const BentoCard: React.FC<{ project: Project }> = ({ project }) => {
         <img 
           src={project.image} 
           alt={project.title} 
+          loading="lazy"
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 filter grayscale group-hover:grayscale-0"
         />
         <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors duration-300" />
